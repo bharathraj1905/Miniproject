@@ -1,59 +1,59 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+# Stroke Detection from Brain MRI Using Swin Transformer
+This project focuses on the automatic detection of stroke from brain MRI images using a Swin Transformer–based deep learning model. The system aims to assist medical professionals by providing a fast, accurate, and non-invasive approach for early stroke identification, thereby supporting timely diagnosis and improved patient outcomes.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Stroke Detection from Brain MRI Using Swin Transformer is a deep learning–based medical imaging project designed to classify brain MRI scans into stroke and normal categories. Traditional stroke diagnosis relies heavily on manual analysis by radiologists, which can be time-consuming and subject to human error.
+
+This project addresses these challenges by leveraging the Swin Transformer architecture, which uses hierarchical vision transformers and attention mechanisms to capture complex spatial features from MRI images. The model is trained and validated on preprocessed MRI datasets to ensure robust performance. The proposed system provides an automated decision-support tool that can aid clinicians in early stroke screening and diagnosis.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+- Utilizes Swin Transformer, an advanced deep learning architecture for image classification
+- High accuracy in stroke and normal brain MRI classification
+- Non-invasive and automated diagnostic support system
+- Scalable framework suitable for real-world medical deployment
+- Efficient training and inference with reduced computational complexity
+- Supports visualization through confusion matrices and performance metrics
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
+*Operating System: 64-bit Windows 10 / Ubuntu Linux
+*Programming Language: Python 3.8 or later
+*Deep Learning Frameworks: PyTorch, timm
+*Image Processing Libraries: OpenCV, torchvision
+*Machine Learning Utilities: scikit-learn, NumPy, Pandas
+*Visualization Tools: Matplotlib, Seaborn
+*IDE: VS Code / Jupyter Notebook / Google Colab
+*Hardware: GPU recommended for faster training (optional but preferred)
+ 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+The system architecture consists of MRI image input, preprocessing, thermal image transformation, feature extraction using Swin Transformer blocks, average pooling, and final classification through dense layers.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+<img width="770" height="706" alt="image" src="https://github.com/user-attachments/assets/2a688a08-0bdb-4981-a6c9-d5f63330548f" />
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output 1 – Model Validation
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="1000" height="565" alt="image" src="https://github.com/user-attachments/assets/9f9e1ca6-c79a-4198-bc67-7e06537c0afd" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output 2 – Confusion Matrix
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+<img width="698" height="612" alt="image" src="https://github.com/user-attachments/assets/a7e57b47-853c-4826-b30d-d81a320f629f" />
+<img width="716" height="607" alt="image" src="https://github.com/user-attachments/assets/7f47b3e0-55b8-41b5-927d-17597228f83e" />
 
+Detection Accuracy: 97%
+Note: Performance metrics may vary depending on dataset size and preprocessing techniques.
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The proposed Stroke Detection System demonstrates high accuracy and reliability in classifying brain MRI images. By integrating transformer-based deep learning with medical imaging, the project highlights the potential of AI-assisted diagnosis in healthcare.
+This system can serve as a supportive tool for radiologists, helping reduce diagnostic time and improving early stroke detection. The project also lays a foundation for future advancements in intelligent medical imaging systems.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
 
-
+1. Liu, Z., Lin, Y., Cao, Y., et al., “Swin Transformer: Hierarchical Vision Transformer using Shifted Windows,” IEEE International Conference on Computer Vision (ICCV), 2021.
+2. Litjens, G., et al., “A Survey on Deep Learning in Medical Image Analysis,” Medical Image Analysis, Elsevier, 2017.
+3.Esteva, A., et al., “A Guide to Deep Learning in Healthcare,” Nature Medicine, 2019.
 
 
